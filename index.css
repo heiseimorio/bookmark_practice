@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/* ヘッダー */
+.header {
+  background-color: #80808040;
+  height: 100px;
+  width: 100%;
+}
+
+.header-wrapper {
+  width: 80%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.header-left {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+.header-left > p {
+  display: inline-block;
+  width: 50px;
+}
+
+.header-left > select {
+  width: 200px;
+}
+
+.header-right {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+}
+
+.header-right > button {
+  border-radius: 5px;
+  background-color: #e1e439d5;
+  color: white;
+  width: 150px;
+  text-align: center;
+  font-size: 16px;
+  border: 0px;
+}
+
+.header-right > button:hover {
+  background-color: #bcbe27d5;
+  cursor: pointer;
+}
+
+/* コンテナ */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.bookmark-wrapper {
+  margin: 20px 0px;
+}
+
+.tittle > a {
+  font-size: 28px;
+  text-decoration: none;
+  color: rgb(50, 50, 50);
+}
+
+.tittle > a:hover {
+  font-size: 32px;
+  color: rgb(0, 0, 0);
+}
