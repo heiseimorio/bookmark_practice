@@ -73,13 +73,13 @@ p, h1 {
   margin: 20px 0px;
 }
 
-.tittle > a {
+.title > a {
   font-size: 28px;
   text-decoration: none;
   color: rgb(50, 50, 50);
 }
 
-.tittle > a:hover {
+.title > a:hover {
   font-size: 32px;
   color: rgb(0, 0, 0);
 }
