@@ -63,6 +63,49 @@ p, h1 {
   cursor: pointer;
 }
 
+.mask {
+  background: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.modal {
+  background-color: #fff;
+  width: 500px;
+  position: absolute;
+  top: 250px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+}
+
+.modal > p {
+  margin: 10px;
+}
+
+.modal > input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.url {
+  margin: 20px 0px 20px 0px;
+}
+.modal-buttons {
+  margin: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-buttons > button {
+  width: 100px;
+  border-radius: 5px;
+
+}
+
 /* コンテナ */
 .container {
   width: 80%;
