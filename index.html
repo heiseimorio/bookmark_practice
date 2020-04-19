@@ -23,19 +23,23 @@
         <button id="add_url">URLを追加する</button>
       </div>
       
-      <div class="mask">
+      <div id="mask" class="mask hidden">
       </div>
 
-      <div class="modal">
+      <div id="modal" class="modal hidden">
         <p>URL</p>
         <input  class="url" type="text">
         
         <p>分類</p>
-        <input type="text">
+        <select name="" id="">
+          <option value="">あいうえお</option>
+          <option value="">かきくけこ</option>
+          <option value="">さしすせそさしすせそさしすせそさしすせそ</option>
+        </select>
 
         <div class="modal-buttons">
-          <button>キャンセル</button>
-          <button>OK</button>
+          <button id="cancel" class="cancel-btn">キャンセル</button>
+          <button id="add" class="add-btn">OK</button>
         </div>
       </div>
     </div>

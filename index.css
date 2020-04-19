@@ -36,7 +36,7 @@ p, h1 {
 }
 
 .header-left > select {
-  width: 200px;
+  width: 300px;
 }
 
 .header-right {
@@ -72,6 +72,10 @@ p, h1 {
   left: 0;
 }
 
+#mask.hidden {
+  display: none;
+}
+
 .modal {
   background-color: #fff;
   width: 500px;
@@ -80,6 +84,10 @@ p, h1 {
   left: 0px;
   right: 0px;
   margin: 0 auto;
+}
+
+#modal.hidden {
+  transform: translate(0, -500px);
 }
 
 .modal > p {
@@ -91,9 +99,14 @@ p, h1 {
   box-sizing: border-box;
 }
 
+.modal > select {
+  width: 100%;
+}
+
 .url {
   margin: 20px 0px 20px 0px;
 }
+
 .modal-buttons {
   margin: 20px 0px 20px 0px;
   display: flex;
@@ -103,7 +116,14 @@ p, h1 {
 .modal-buttons > button {
   width: 100px;
   border-radius: 5px;
+}
 
+.cancel-btn {
+  background-color: darkgray;
+}
+
+.add-btn {
+  background-color: lightgreen;
 }
 
 /* コンテナ */
