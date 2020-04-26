@@ -19,6 +19,10 @@
   });
 
   addButton.addEventListener('click', () => {
+    // inputの値を受け取るよ
+    const url = document.getElementById("url").value;
+    // console.log(url);
+    setUrl(url);
     mask.classList.add("hidden");
     modal.classList.add("hidden");
   });
